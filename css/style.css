@@ -1,3 +1,56 @@
-body {
+/* body {
     font-family: 'Raleway', sans-serif;
+} */
+
+header{
+    /* font-family: 'VT323', monospace; */
+    font-family: 'Orbitron', sans-serif;
 }
+
+
+/* Header */
+.header{
+    height: 50rem;
+    background-image: url(../img/su.jpeg);
+    background-size: cover;
+    background-position: bottom center;
+}
+
+.navbar-toggler{
+    background-color: #65fc01!important;
+}
+
+.nombre-sitio{
+    font-size:2.4rem;
+    font-weight: 300;
+}
+
+.nombre-sitio span{
+    font-weight: 900;
+}
+
+.nav-link{
+    color: white;
+    font-size: .9rem;
+}
+
+.nav-link:hover{
+    color: #65fc01;
+}
+
+@media (min-width:992px){
+    .header .nav-link::before{
+        content: '|';
+        margin-right: 1rem;
+    }
+
+    .header .nav-link:first-child::before{
+        display: none;
+    }
+}
+
+.contenido-hero{
+    margin-bottom: 10rem;
+}
+
+/* /Header */
