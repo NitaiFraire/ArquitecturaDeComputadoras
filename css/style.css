@@ -2,9 +2,13 @@
     font-family: 'Raleway', sans-serif;
 } */
 
-header{
+body{
     /* font-family: 'VT323', monospace; */
     font-family: 'Orbitron', sans-serif;
+}
+
+h2{
+    font-size:3.6rem;
 }
 
 
@@ -53,4 +57,78 @@ header{
     margin-bottom: 10rem;
 }
 
+.nombre-sitio i{
+    font-size: 4rem;
+    color: rgb(66, 206, 140);
+
+}
+
+.temario{
+    font-size:3rem;
+}
+
 /* /Header */
+
+
+/* Unidad 1 */
+
+.bg-light{
+    background-color: white!important;
+}
+.unidad-1-bg{
+    min-height: 55rem;
+    background-image: url(../img/unidad1.jpeg);
+    background-repeat: no-repeat;
+    background-position: bottom left;
+}
+
+@media(min-width:768px){
+
+    .unidad-1-bg{
+        min-height: 40rem;
+    }
+}
+/* /Unidad 1 */
+
+/* Unidad 2 */
+
+.unidad{
+    background-repeat: no-repeat;
+    min-height: 55rem;
+}
+
+@media(min-width:768px){
+
+    .unidad{
+        min-height: 40rem;
+    }
+}
+
+.unidad2{
+    background-image: url(../img/unidad2.jpeg);
+    background-position: top right;
+}
+
+/* /Unidad 2 */
+
+
+/* Unidad 3 */
+
+
+.unidad3{
+    background-image: url(../img/unidad3.jpeg);
+    background-position: bottom left;
+}
+
+/* /Unidad 3 */
+
+
+/* Unidad 4 */
+
+.unidad4{
+    background-image: url(../img/unidad4.jpeg);
+    background-position: top right;
+}
+
+/* /Unidad 4 */
+
